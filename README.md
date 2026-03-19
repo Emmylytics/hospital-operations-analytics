@@ -21,15 +21,16 @@ Hospital admission and discharge records include:
 - Evaluate LOS by age group and medical condition
 - Examine patterns in emergency vs elective admissions
 - Identify factors influencing patient stay duration to support operational improvements
-Design dashboard layout and prototype Build interactive dashboards and KPI visualizations 
-## Tech Stack & Workflow
+Design dashboard layout and prototype Build interactive dashboards and KPI visualizations
 
-| Phase                        | Tool / Language        | Description                                         |
-|-------------------------------|----------------------|---------------------------------------------------|
-| Data Cleaning & Preprocessing | Python (Pandas, NumPy)| Clean raw data, standardize fields, calculate LOS|
-| Exploratory Data Analysis (EDA)| SQL                  | Aggregate, segment, and summarize key operational metrics |
-| Wireframing                    | Figma                | Design dashboard layout and prototype |
-| Visualization & Dashboard      | Power BI             | Build interactive dashboards and KPI visualizations            |
+## Tech Stack & Workflow                       
+
+| Phase                         | Tool / Language         | Description                                         |
+|------------------------------|------------------------|-----------------------------------------------------|
+| Data Cleaning & Preprocessing| Python (Pandas, NumPy) | Clean raw data, standardize fields, calculate LOS   |
+| Exploratory Data Analysis    | SQL                    | Aggregate, segment, and summarize key metrics       |
+| Wireframing                 | Figma                  | Design dashboard layout and prototype               |
+| Visualization & Dashboard   | Power BI               | Build interactive dashboards and KPI visualizations |
 
 ## Key Insights
 - Admissions peaked 2020–2023, with a slight decline in 2024
@@ -41,15 +42,15 @@ Design dashboard layout and prototype Build interactive dashboards and KPI visua
 
 ```
 hospital-analytics/
-├─ data/
-│  └─ healthcare_dataset.csv
-├─ python/
-│  └─ preprocessing.ipynb
-├─ sql/
-│  └─ eda_queries.sql
-├─ powerbi/
-│  └─ dashboard.pbix
-├─ assets/
-│  └─ dashboard_preview.png
-└─ README.md
+├── data/
+│   └── healthcare_dataset.csv
+├── python/
+│   └── preprocessing.ipynb
+├── sql/
+│   └── eda_queries.sql
+├── powerbi/
+│   └── dashboard.pbix
+├── assets/
+│   └── dashboard_preview.png
+└── README.md
 ```
