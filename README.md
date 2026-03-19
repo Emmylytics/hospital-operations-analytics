@@ -45,11 +45,9 @@ hospital-analytics/
 ├── data/
 │   └── healthcare_dataset.csv
 ├── python/
-│   └── preprocessing.ipynb
+│   └── healthcare_preprocessing.ipynb
 ├── sql/
 │   └── eda_queries.sql
-├── powerbi/
-│   └── dashboard.pbix
 ├── assets/
 │   └── dashboard_preview.png
 └── README.md
